@@ -9,7 +9,7 @@
  *   * Redistributions in binary form must reproduce the above
  *     copyright notice, this list of conditions and the following
  *     disclaimer in the documentation and/or other materials provided
- *     with the distribution.
+ *     with the distribution .
  *   * Neither the name of The Linux Foundation nor the names of its
  *     contributors may be used to endorse or promote products derived
  *     from this software without specific prior written permission.
@@ -53,11 +53,13 @@ enum mdp_version {
     MDSS_V5     = 500,
 };
 
+#ifndef MDSS_MDP_REV
 enum mdp_rev {
     MDSS_MDP_HW_REV_100 = 0x10000000,
     MDSS_MDP_HW_REV_101 = 0x10010000, //8x26
     MDSS_MDP_HW_REV_102 = 0x10020000,
 };
+#endif
 
 enum {
     MAX_DISPLAY_DIM = 2048,
