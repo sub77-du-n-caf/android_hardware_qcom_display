@@ -39,3 +39,4 @@ ifeq ($(TARGET_PREBUILT_KERNEL,KERNEL_BIN),false)
     common_deps += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
     kernel_includes += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 endif
+endif
